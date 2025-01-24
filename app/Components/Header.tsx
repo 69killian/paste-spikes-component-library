@@ -15,7 +15,7 @@ import { CommandDemo } from "./command";
 
 const Header = () => {
   return (
-    <div className="fixed bg-[#121212] h-[85px] right-0 left-0 flex justify-center items-center text-[14px] gap-[60px]">
+    <nav className="fixed bg-[#121212] h-[85px] right-0 left-0 flex justify-center items-center text-[14px] gap-[60px] border-b border-b-1 border-white/15">
       <Image src={Paste} alt="Paste Logo" />
 
       <Image src={Tiret} alt="Tiret" />
@@ -49,7 +49,7 @@ const Header = () => {
           <DropdownMenuItem>Subscription</DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
-    </div>
+    </nav>
   );
 };
 
