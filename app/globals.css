@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+button:focus {
+  outline: 1px solid orange;
+}
+input:focus {
+  outline: 2px solid orange;
+}
+
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --background: #1D1D1D; /* Défaut : gris foncé */
+    --foreground: #FFFFFF; /* Défaut : blanc */
+  }
+
+  body {
+    background-color: var(--background); /* Applique le background par défaut */
+    color: var(--foreground); /* Applique la couleur de texte par défaut */
+  }
+}
