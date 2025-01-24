@@ -77,7 +77,7 @@ const Sidebar = () => {
         return (
             <div
             key={index}
-            className={`mb-4 border-b border-dashed border-b-2 border-[#333333] ${accordion.title === "PLAN" ? "border-b-0" : ""}`}
+            className={`mb-4 border-b border-dashed border-b-2 border-[#333333] ${accordion.title === "PLAN" ? "border-none" : ""}`}
           >
             <div
               className="w-full text-left flex justify-between items-center cursor-pointer pb-0 pt-0"
