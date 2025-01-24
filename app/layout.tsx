@@ -24,8 +24,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body 
+      <head>
+        {/* Ajouter le lien Google Fonts pour la police Inter */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{ fontFamily: "Inter, sans-serif" }}
       >
         {children}
       </body>
