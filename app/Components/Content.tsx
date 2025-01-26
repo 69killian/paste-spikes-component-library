@@ -8,13 +8,13 @@ const Content = () => {
     <>
       <section className="px-4 md:px-8">
         {/* Hero Section */}
-        <div className="flex flex-col lg:flex-row justify-between gap-4">
+        <div className="flex flex-col md:flex-row justify-between gap-4">
           {/* Left Content */}
-          <div className="md:w-1/2">
+          <div className=" md:w-1/2">
             <div className="text-[26px] mb-[20px]">
               Hero Section <span className="gradient text-[16px]">Pro</span>
             </div>
-            <div className="text-[14px] text-[#7E7F81] mb-[40px]  lg:mb-[150px] xl:mb-[169px]">
+            <div className="text-[14px] text-[#7E7F81] mb-[40px] md:mb-[150px]  lg:mb-[150px] xl:mb-[169px]">
               Detailed header section with heading and graphic/image centred and feature <br className="hidden md:block" /> cards on either side.
             </div>
 
@@ -55,7 +55,7 @@ const Content = () => {
             Other sections you might like
         </div>
 
-          <div className="text-[12.49px] cursor-pointer text-[#7E7F81] bg-[#1B1B1B] hover:bg-[#121212] transition-all duration-200 w-full w-[79px] h-[32px] rounded-[6px] border border-1 border-[#292929] text-[12px] flex justify-center items-center">
+          <div className="text-[12.49px] cursor-pointer text-[#7E7F81] bg-[#1B1B1B] hover:bg-[#121212] transition-all duration-200 w-[79px] h-[32px] rounded-[6px] border border-1 border-[#292929] text-[12px] flex justify-center items-center">
             Browse All
           </div>
         </div>
