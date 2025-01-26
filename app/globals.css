@@ -8,9 +8,6 @@ body {
 button:focus {
   outline: 1px solid orange;
 }
-input:focus {
-  outline: 2px solid orange;
-}
 .gradient {
   background-image: linear-gradient(to bottom, #FF7A00, #FF2900);
   -webkit-background-clip: text; /* Nécessaire pour appliquer le gradient au texte */
