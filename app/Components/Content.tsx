@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
 import Figma from "./images/image 37.svg";
 import Webflow from "./images/image 26.svg";
 import EmptyBookMark from './images/icon(5).svg';
 import OrangeBookMark from './images/icon(6).svg';
+import Eye from './images/eye.svg';
 
 const Card = ({ title, bookmark, date }: { title: string, bookmark: string, date: string }) => (
   <div className="w-full sm:w-[350px] mb-[20px] max-w-full">
@@ -44,7 +45,7 @@ const Content = () => {
               </div>
               <div>
                 <button className="bg-[#1B1B1B] hover:bg-[#121212] transition-all duration-200 w-full md:w-[532px] h-[50px] max-w-full rounded-[6px] border border-1 border-[#292929] text-[12px] flex justify-center items-center">
-                  Live preview
+                <Image alt="figma" src={Eye} className="mr-2" /> Live preview
                 </button>
               </div>
             </div>

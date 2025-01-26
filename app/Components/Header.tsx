@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Paste from "./images/paste.svg";
+import Paste from "./images/image 29(3).svg";
 import Tiret from "./images/tiret.svg";
 import User from "./images/icon(1).svg";
 import {
