@@ -70,10 +70,10 @@ const Sidebar = () => {
   ];
 
   return (
-    <nav className="bg-[#121212] w-[280px] fixed bottom-0 top-[85px] text-white p-8 transition-all border-r border-r-1 border-white/15">
+    <nav className="hidden lg:block bg-[#121212] w-[280px] fixed bottom-0 top-[85px] text-white p-8 transition-all border-r border-r-1 border-white/15">
       {accordionData.map((accordion, index) => {
         const isOpen = openAccordions.includes(index);
-        const isSections = accordion.title === "SECTIONS"; // Check if it's the SECTIONS accordion
+        const isSections = accordion.title === "SECTIONS";
         return (
             <div
             key={index}
