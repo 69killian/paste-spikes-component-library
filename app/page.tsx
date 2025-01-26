@@ -8,7 +8,7 @@ export default function Home() {
     
     <Header/>
     <Sidebar/>
-    <div className="lg:pl-[320px] pt-[125px] pr-[40px]">
+    <div className="lg:pl-[300px] pt-[125px] pr-[20px]">
     <Content/>
     </div>
     </>
