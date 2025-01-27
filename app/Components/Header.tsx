@@ -1,5 +1,6 @@
 "use client"
 
+import { UserButton } from "@clerk/nextjs";
 import React, { useState } from "react";
 import Image from "next/image";
 import Paste from "./images/image 29(3).svg";
@@ -77,21 +78,9 @@ const Header = () => {
       )}
 
       {/* User Dropdown */}
-      <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <button className=" bg-[#151515] hover:bg-[#1d1d1d] transition duration-300 border border-[#1d1d1d] text-white rounded-sm p-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
-          <Image src={User} alt="User Icon" height={16} width={16} className="" />
-          </button>
-        </DropdownMenuTrigger>
-        <DropdownMenuContent className="bg-[#151515] text-white border-[#1d1d1d] rounded-sm">
-          <DropdownMenuLabel>My Account</DropdownMenuLabel>
-          <DropdownMenuSeparator className="bg-[#1d1d1d]" />
-          <DropdownMenuItem>Profile</DropdownMenuItem>
-          <DropdownMenuItem>Billing</DropdownMenuItem>
-          <DropdownMenuItem>Team</DropdownMenuItem>
-          <DropdownMenuItem>Subscription</DropdownMenuItem>
-        </DropdownMenuContent>
-      </DropdownMenu>
+        <button className=" bg-[#151515] hover:bg-[#1d1d1d] transition duration-300 border border-[#1d1d1d] text-white rounded-sm px-2 pt-2 pb-1 focus:outline-none focus:ring-2 focus:ring-orange-500">
+          <UserButton afterSignOutUrl="/"/>
+        </button>
     </nav>
   );
 };
