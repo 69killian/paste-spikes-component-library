@@ -5,15 +5,6 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Paste from "./images/image 29(3).svg";
 import Tiret from "./images/tiret.svg";
-import User from "./images/icon(1).svg";
-import {
-  DropdownMenu,
-  DropdownMenuTrigger,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-} from "@/components/ui/dropdown-menu";
 import { CommandDemo } from "./command";
 import { Menu, X } from "lucide-react";
 
