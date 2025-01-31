@@ -1,7 +1,7 @@
 
 # Paste
 
-![Capture d'écran du projet](screen.png)
+![Capture d'écran du projet](screen)
 
 [![Démo du Projet]()](https://mighty-travel-887542.framer.app/)
 
